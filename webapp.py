@@ -145,7 +145,6 @@ stock_exchange = ["NSE50", "NSE100"]
 index = st.selectbox("Select a Stock Exchange", stock_exchange)
 
 symbol, data, date = read_dataset(index)
-
 company = st.selectbox("Choose a Symbol", symbol)
 from_date = st.date_input("Enter a date:")
 p = date_index_calculator(from_date)
