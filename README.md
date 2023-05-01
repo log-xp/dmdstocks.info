@@ -1,5 +1,5 @@
 # dmdstocks.info
-building a web app for DMD based stock prediction
+built a web app for DMD based stock prediction and recommendation
 
 I will be adding the deployment in stream lit soon . 
 
